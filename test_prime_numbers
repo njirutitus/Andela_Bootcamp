@@ -4,7 +4,7 @@ from prime_numbers import primenumbers
 
 class primeNumbersTestCase(unittest.TestCase):
   def test_none_type(self):
-    self.assertEqual([2,3], primenumbers(3))
+    self.assertEqual([2], primenumbers(3))
  
 if __name__ == '__main__':
   unittest.main()
